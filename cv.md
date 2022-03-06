@@ -20,7 +20,7 @@ Hello! My name is **Evgeniya Ermishina**. I live in Moscow and I am a software s
 - Git/GitHub
 - Figma, Photoshop
 ===
-## **Education and courses:****
+## **Education and courses:**
 
 - **RS School**
     - [JavaScript/Front-end. 2022Q1 (in progress)](https://github.com/rolling-scopes-school/tasks/tree/master/stage1)
@@ -31,3 +31,7 @@ Hello! My name is **Evgeniya Ermishina**. I live in Moscow and I am a software s
 - **Synergy University**
     - BA in Management
 ===
+## **Languages**
+
+- **English** - A2. *I am improving my level of English*
+- **Russian** - native
