@@ -12,3 +12,11 @@
 ===
 Hello! My name is **Evgeniya Ermishina**. I live in Moscow and I am a software support specialist, but I want to be more involved in development software. So I’m working on new career path and my goal is to become a frontend developer. There is a great willingness to learn and desire to develop in this direction.
 ===
+## **Professional skills:**
+
+- HTML5
+- CSS3
+- JavaScript Basics
+- Git/GitHub
+- Figma, Photoshop
+===
