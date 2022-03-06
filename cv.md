@@ -20,3 +20,14 @@ Hello! My name is **Evgeniya Ermishina**. I live in Moscow and I am a software s
 - Git/GitHub
 - Figma, Photoshop
 ===
+## **Education and courses:****
+
+- **RS School**
+    - [JavaScript/Front-end. 2022Q1 (in progress)](https://github.com/rolling-scopes-school/tasks/tree/master/stage1)
+- **Code Basics**
+    - [HTML for beginners](https://code-basics.com/languages/html)
+    - [CSS for beginners](https://code-basics.com/languages/css)
+    - [JavaScript for beginners](https://code-basics.com/languages/javascript)
+- **Synergy University**
+    - BA in Management
+===
