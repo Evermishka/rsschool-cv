@@ -5,8 +5,143 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
 </head>
-<body>
-    
+<body class="page">
+    <header class="header">
+        <nav class="main-nav">
+            <ul class="main-nav__list">
+                <li class="main-nav__item">
+                    <a href="#about_me">About me</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#skills">Skills</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#education">Education</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#code">Code example</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="#contacts">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <h1 class="visually-hidden">My CV</h1>        
+        <section id="about_me" class="about-me">
+            <div class="about-me__wrapper">
+                <h2>About me</h2>
+                <p class="about-me__name">Evgeniya Ermishina</p>
+                <p class="about-me__prof">frontend developer</p>
+                <p>Hello! My name is <strong>Evgeniya Ermishina</strong>. I live in Moscow and I am a software support specialist, but I want to be more involved in development software. So I’m working on new career path and my goal is to become a frontend developer. There is a great willingness to learn and desire to develop in this direction.</p>
+            </div>
+            <img class="about-me__img" src="assets/img/my_photo.jpg" width="300" height="300" alt="Evgeniya Ermishina">
+        </section>
+        <div class="main__wrapper">
+            <div class="main__left-column">
+                <section id="skills" class="skills">
+                    <h2 class="visualli-hidden">Skills</h2>
+                    <section class="professional-skills">
+                        <h3>Professional skills:</h3>
+                        <ul class="professional-skills__list">
+                            <li><b>HTML5</b></li> 
+                            <li><b>CSS3</b></li>
+                            <li><b>JavaScript Basics</b></li>
+                            <li><b>Git/GitHub</b></li>
+                            <li><b>Figma, Photoshop</b></li>
+                        </ul>
+                    </section>
+                    <section class="languages">
+                        <h3>Languages</h3>
+                        <ul class="languages__list">
+                            <li><b>English</b> - A2. I am improving my level of English</li>
+                            <li><b>Russian</b> - native</li>
+                        </ul>
+                    </section>
+                </section>
+                <section id="education" class="education">
+                    <h2>Education</h2>
+                    <ul class="education__list">
+                        <li>
+                            <h3>RS School</h3>
+                            <ul class="education__items">
+                                <li>
+                                    <a href="https://rs.school/js-stage0/">JavaScript/Front-end. 2022Q0 (in progress)</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>Code Basics</h3>
+                            <ul class="education__items">
+                                <li>
+                                    <a href="https://code-basics.com/languages/html">HTML for beginners</a>
+                                </li>
+                                <li>
+                                    <a href="https://code-basics.com/languages/css">CSS for beginners</a>
+                                </li>
+                                <li>
+                                    <a href="https://code-basics.com/languages/javascript">JavaScript for beginners</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3>Synergy University</h3>
+                            <ul class="education__items">
+                                <li>BA in Management</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="main__right-column">
+                <section id="projects" class="projects">
+                    <h2>Projects</h2>
+                    <ul class="projects__list">
+                        <li>
+                            <h3>My CV</h3>
+                            <a href="https://github.com/Evermishka/rsschool-cv"><img src="assets/img/cv-screen.png" width="283" height="178" alt="Исходный код проекта"></a>
+                            <p>Год разработки - 2022</p>              
+                        </li>
+                    </ul>
+                </section>
+                <section id="code" class="code">
+                    <h2>Code example</h2>
+                    <pre class="code__example">
+                        <code >
+function highAndLow (numbers) {
+  let arr = numbers.split(' ');
+  let max = Math.max.apply(null, arr);
+  let min = Math.min.apply(null, arr);
+  let result = max + " " + min;
+  return result;
+}                        </code>
+                    </pre>
+                </section>
+                <section id="contacts" class="contacts">
+                    <h2>Contacts</h2>
+                    <ul class="contacts__list">
+                        <li><b>Location: </b>Moscow, Russia</li>
+                        <li><b>Email: </b>evermishka@yandex.ru</li>
+                        <li><b>Telegram: </b>@Evermishka</li>
+                        <li><b>Diskord: </b>Evermishka#8803</li>
+                    </ul>
+                </section>
+            </div>
+        </div>        
+    </main>
+    <footer class="footer">
+        <a href="https://github.com/Evermishka" class="my-github">My GitHub</a>
+        <p>2022</p>
+        <a href="https://rs.school/js/">Курс «JavaScript/Front-end»</a>    
+    </footer>
 </body>
 </html>
