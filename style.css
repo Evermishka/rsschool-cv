@@ -1,0 +1,167 @@
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+  
+a {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+            clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.page {
+  min-width: 320px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #332929;
+}
+
+.header {  
+  margin-top: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #fce9e3;
+}
+
+.main-nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 80%;  
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.main-nav__item a {
+  color: #332929;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:focus {
+  cursor: pointer;
+  color: #694f4f;
+}
+
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 5px solid #fce9e3;
+  border-right: 5px solid #fcf5e3;
+}
+
+.about-me__wrapper {
+  padding: 40px;
+  padding-bottom: 60px;
+  max-width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me__name,
+.about-me__prof {
+  order: -1;
+}
+
+.about-me__name {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.about-me__prof {
+  font-size: 1.5rem;
+}
+
+.about-me__img {
+  margin-left: 60px;
+  margin-right: 60px;
+  order: -1;
+}
+
+.main__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.main__left-column,
+.main__right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: -20px;
+  padding: 40px;
+  padding-top: 20px;
+  
+}
+
+.main__left-column {
+  background-color: #fce9e3;
+}
+
+.main__right-column {
+  background-color: #fcf5e3;
+}
+
+.professional-skills__list,
+.languages__list,
+.education__list,
+.education__items {
+  margin: 0;
+  list-style: none;
+  line-height: 1.5rem;
+}
+
+.education__list {
+  padding: 0;
+}
+
+.projects__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.code__example {
+  padding-left: 60px;
+  background-color: #ffffff;
+}
+
+.contacts__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  line-height: 1.5rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  background-color: #f7ddcd;  
+}
